@@ -21,7 +21,7 @@ AnonymousAccessList[]=ezjscore/call
 
 # Cache item entry (for eZ Publish 4.3 and up)
 [Cache]
-CacheItems[]=ezjscore
+#CacheItems[]=ezjscore
 
 [Cache_ezjscore]
 name=eZJSCore Public Packer cache
