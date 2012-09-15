@@ -1,0 +1,41 @@
+#wearecoworkers {
+
+}
+#wearecoworkers li {
+	list-style: none;
+}
+
+#wearecoworkers section {
+	position: relative;
+	margin-top: -1px;
+	height:80px;
+	border: 1px solid #CCC;
+}
+#wearecoworkers .photo {
+	
+}
+#wearecoworkers .fn {
+	position: absolute;
+	top: 5px;
+	left: 90px;
+}
+#wearecoworkers .social {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+#wearecoworkers .social li {
+	list-style: none;
+	margin-left: 3px;
+	display: inline;
+}
+#wearecoworkers .category {
+	position: absolute;
+	top: 30px;
+	left: 95px;
+}
+#wearecoworkers .website {
+	position: absolute;
+	top: 50px;
+	left: 95px;
+}
