@@ -2,7 +2,7 @@
 
 <div class="memberSearchResult ">
     <div class="searchResultImageShell">
-        {attribute_view_gui attribute=$node.data_map.photo image_class=fichemec}
+        {attribute_view_gui attribute=$node.data_map.photo image_class=fiche}
     </div>
     <div class="memberSearchResultNameShell absolute fullCardTrigger pointer">
         <span class="absolute">{attribute_view_gui attribute=$node.data_map.first_name}</span>
