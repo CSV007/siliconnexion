@@ -65,7 +65,7 @@ class Silicon {
             $tagInfo = array();
             foreach ($tags as $tag) {
                 $tagInfo['value'] = $tag->ID;
-                $tagInfo['name'] = $tag->Keyword;
+                $tagInfo['label'] = $tag->Keyword;
                 $result[] = $tagInfo;
             }
                 return json_encode($result);

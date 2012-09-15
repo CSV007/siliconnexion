@@ -6,8 +6,8 @@ $(document).ready(function() {
     $('#searchResult').isotope({
         itemSelector: '.memberSearchResult',
         masonry : {
-            columnWidth : 200,
-            gutterWidth : 10
+            columnWidth : 140,
+            gutterWidth : 18
         }
     });
     

@@ -36,10 +36,16 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                 </head>
                 <body>
 
+                    
+                    
+                    <div class="bigHeader">
                     <div class="mainShell">
-
                         <div class="header relative">
-                            <div class="logo absolute">Logo</div>
+                            <div class="logo absolute">
+                                <img src={'logo.png'|ezimage()} />
+                                
+                                
+                            </div>
                             <div class="absolute userHeaderBlock">
                                 {if $current_user.is_logged_in}
                                 {$current_user.contentobject.name} - <a href={'/user/logout'|ezurl( 'no', 'full' )}>{'logout'|i18n('cadev')}</a>
@@ -50,7 +56,13 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                             {/if}
                             </div>
                         </div>
+                        
+                    </div>
+                    </div>
+                    {def $me = fetch('content', 'node', hash('node_id', 15))}
                     
+                    
+                    <div class="mainShell">
                     <div class="content">
 
                         {$module_result.content}

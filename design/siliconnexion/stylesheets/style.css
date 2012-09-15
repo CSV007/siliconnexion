@@ -16,7 +16,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     padding: 0;
 }
 body {
-    background:#444;
+    background:url(../images/bg.png);
     font-size:12px;
     line-height: 1;
     padding-bottom:45px;
@@ -133,15 +133,23 @@ input {
 /* **** HEADER **** */
 
 .header {
-    background:#ddd;
-    height: 100px;
+    
+    
+}
+
+.bigHeader {
+    background:url(../images/headerBg.png);
+    border-bottom:1px solid #4DD5FF;
+    border-top:2px solid #919191;
+    height:128px;
+    
 }
 
 .logo {
-    background:#ccc;
-    width:150px;
-    height:80px;
-    top:10px;
+    
+    width:130px;
+    height:130px;
+    
 }
 
 .mainMenu {
@@ -165,7 +173,7 @@ input {
 /* **** FOOTER **** */
 
 .footer {
-    background:#ddd;
+    background:rgba(255, 255, 255, 0.7);
     position:fixed;
     bottom:0;
     width:940px;
@@ -182,6 +190,23 @@ input {
 /* **** /FOOTER **** */
 
 /* **** PEOPLE DIRECTORY **** */
+.searchFilter {
+    background:rgba(255,255,255,0.7);
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    padding:15px;
+}
+
+.searchFilter label {
+    display:inline;
+}
+
+
+.filterInputShell input {
+    padding:4px;
+    border:1px solid #414342;
+    border-radius:5px;
+}
 
 .searchStatus {
     height:20px;
@@ -190,7 +215,7 @@ input {
 }
 
 .searchFilter {
-    background:#ddd;
+    
     padding-bottom:10px;
 }
 
@@ -198,38 +223,57 @@ input {
     margin-right:10px;
 }
 
+.mainFiltersShell {
+    padding-top: 15px;
+}
+
 .mainFiltersShell .moreFiltersTrigger {
     bottom:5px;
     right:5px;
 }
+
+.secondaryFiltersShell {
+    padding-top:10px;
+}
+
 .secondaryFiltersShell .moreFiltersTrigger {
     top:5px;
     right:5px;
 }
 
 .memberSearchResult {
-    margin-bottom:10px;
+    margin-bottom:20px;
+    
 }
 
 .memberSearchResult, .memberSearchResultNameShell, .searchResultImageShell {
-    height:125px;
-    width:200px;
+    height:140px;
+    width:140px;
     overflow:hidden;
 }
 
+.searchResultImageShell {
+    border:1px solid #bbb;
+}
+
+.fullMemberCard .searchResultImageShell {
+    border:none;
+}
+
 .memberSearchResult:hover {
-    box-shadow:1px 1px 3px #ff54e2;
+    box-shadow:1px 1px 3px #32bde8;
 }
 
 .memberSearchResult:hover .memberSearchResultNameShell {
-    border:#ff8eea 2px solid;
-    height:121px;
-    width:196px;
+    border:#4DD5FF 2px solid;
+    height:136px;
+    width:136px;
 }
 
 .memberSearchResultNameShell {
     top:0;
     left:0;
+    
 }
 
 .memberSearchResultNameShell span {
@@ -262,7 +306,7 @@ input {
 .fullMemberCard {
     background:white;
     height:260px;
-    width:410px;
+    width:300px;
 }
 
 .memberSearchResult, .fullMemberCard:hover {
@@ -277,9 +321,14 @@ input {
 }
 
 .fullCardName {
-    font-size:1.4em;
-    left:210px;
+    
+    left:150px;
     top:5px;
+    width:140px;
+}
+
+.guyName {
+    font-size: 1.4em;
 }
 
 .closeBigCard {

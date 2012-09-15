@@ -76,6 +76,8 @@
 
                         function addTagToList( item, list, callback, icon )
                         {
+                            
+                            console.log('addTagToList');
                                 var tag = $('<li' + (!icon ? ' title="Add this tag"' : '') + '>' + item.tag_name + (icon ? '<a href="#" title="Remove tag">' + icon + '</a>' : '') + '</li>').data('tag', {'tag_parent_id': item.tag_parent_id, 'tag_name': item.tag_name, 'tag_id': item.tag_id});
                                 if (icon) tag.find('a').click(function(e) {callback(tag); return false;})
                                 else tag.click(function(e) {callback(tag); return false;});
@@ -131,13 +133,27 @@
                         function openParentSelector()
                         {
                                 hideResults();
-                                parentSelector.jqmShow();
+                                
+                                 addTagToList({'tag_name': obj.val().replace(/^\s+|\s+$/g, ''), 'tag_parent_id': '1', 'tag_id': '0'}, tags_listed, removeTagFromList, '&times;');
+                                        updateValues();
+                                        clearTagSearchField();
+                                        emptyResults();
+                                        hideResults();
+                                        if ( isFilter ) runAutocomplete();
+                                        parentSelector.jqmHide();
+                                        return false;
+                                //parentSelector.jqmShow();
                         }
 
                         function bindParentSelectorTreeEvents()
                         {
+                            
+                            
+                            
                                 $('#' + parentSelector.attr('id') + ' .contentstructure a:not([class^=openclose])').live('click', function(e)
                                 {
+                                    
+                                    
                                         addTagToList({'tag_name': obj.val().replace(/^\s+|\s+$/g, ''), 'tag_parent_id': $(this).attr('rel'), 'tag_id': '0'}, tags_listed, removeTagFromList, '&times;');
                                         updateValues();
                                         clearTagSearchField();

@@ -1,8 +1,8 @@
 <script type="text/javascript" language="javascript" src="{'javascript/lookforMembers.js'|ezdesign('no')}"></script>
 <div class="searchFilter">
     <div class="mainFiltersShell relative">
-        <div class="left searchFilterBlock">
-            <input class="triggerDelayChange" placeholder="Name" type="text" value="" name="name" autocomplete="off"/>
+        <div class="left searchFilterBlock filterInputShell">
+            <input class="filterInput triggerDelayChange" placeholder="Name" type="text" value="" name="name" autocomplete="off"/>
         </div>
         <div class="left searchFilterBlock">
             <select name="places" class="triggerChange" data-placeholder="Working Place">

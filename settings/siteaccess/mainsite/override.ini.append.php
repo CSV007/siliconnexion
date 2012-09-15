@@ -1,10 +1,5 @@
 <?php /* #?ini charset="utf-8"?
 
-[tag_skills_edit]
-Source=content/datatype/edit/eztags.tpl
-MatchFile=content/datatype/edit/eztags.tpl
-Subdir=templates
-Match[attribute_identifier]=skills
 
 [block_campaign]
 Source=block/view/view.tpl
