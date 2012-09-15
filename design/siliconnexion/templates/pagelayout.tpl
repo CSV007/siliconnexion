@@ -66,7 +66,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                             <div class="clear"></div>
                         </div>
                     </div>
-                    </div>
+                    
 
 
                 </body>

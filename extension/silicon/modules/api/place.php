@@ -79,6 +79,9 @@ if (empty($errors)) {
 			
                         $userInfo['drink'] = ($userDM['drink']->hasContent()) ? $userDM['drink']->toString() : NULL;
 			$userInfo['phone'] = ($userDM['phone']->hasContent()) ? $userDM['phone']->toString() : NULL;
+                        
+                        $userInfo['job'] = ($userDM['job']->hasContent()) ? $userDM['job']->toString() : NULL;
+                        
 			$userInfo['site'] = ($userDM['site']->hasContent()) ? $userDM['site']->toString() : NULL;
                         $userInfo['hair'] = ($userDM['hair']->hasContent()) ? $userDM['hair']->toString() : NULL;
                         $userPhoto = $userDM['photo']->content();
