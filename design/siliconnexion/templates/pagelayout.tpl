@@ -33,6 +33,20 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
             siteUrl = "{'/'|ezroot('no', 'full')}";
         </script>
         
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34855047-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        
                 </head>
                 <body>
 
@@ -71,11 +85,14 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                     <div class="clear"></div>
                     <div class="footer">
                         <div class="padder">
+                            
                             <ul class="footerMenu horizontalList">
+                                <li class="right"><a href="https://twitter.com/wearecoworkers_" target="_blank">Twitter</a></li>
                                 <li><a href="{'/'|ezurl('no', 'full')}">People</a></li>
                                 <li><a href="{$aboutPage.url_alias|ezurl('no', 'full')}">About</a></li>
-                                <li><a href="{$apiPage.url_alias|ezurl('no', 'full')}">API</a></li>
+                                <li><a href="{$apiPage.url_alias|ezurl('no', 'full')}">{$apiPage.name}</a></li>
                             </ul>
+                            
                             <div class="clear"></div>
                         </div>
                     </div>
