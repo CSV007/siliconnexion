@@ -24,7 +24,30 @@ body {
 
 ul, ol, p {
     line-height:1.6em;
-    margin:5px 0 10px 0;
+    margin:1em 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0 0 1em 0;
+    color:#21a6ce;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4 {
+    font-size: 1.3em;
+}
+h5 {
+    font-size: 1.2em;
 }
 
 ul, ol {
@@ -138,18 +161,18 @@ input {
 }
 
 .bigHeader {
-    background:url(../images/headerBg.png);
-    border-bottom:1px solid #4DD5FF;
+    background:url(../images/headerBg.png) #4DD5FF;
+    border-bottom:1px solid #2fb7e0;
     border-top:2px solid #919191;
-    height:128px;
+    height:70px;
     
 }
 
 .logo {
     
-    width:130px;
-    height:130px;
-    
+    width:340px;
+    height:48px;
+    margin-top:10px;
 }
 
 .mainMenu {
@@ -164,8 +187,12 @@ input {
 }
 
 .userHeaderBlock {
-    top:10px;
-    right:10px;
+    top:-2px;
+    right:0px;
+    padding:10px;
+    background:rgba(255,255,255,0.8);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
 }
 
 /* **** /HEADER **** */
@@ -209,9 +236,13 @@ input {
 }
 
 .searchStatus {
-    height:20px;
-    line-height: 20px;
     margin:0;
+    font-size: 1.2em;
+}
+
+.searchStatusShell {
+    height:30px;
+    line-height: 30px;
 }
 
 .searchFilter {
@@ -223,13 +254,35 @@ input {
     margin-right:10px;
 }
 
-.mainFiltersShell {
-    padding-top: 15px;
-}
 
 .mainFiltersShell .moreFiltersTrigger {
-    bottom:5px;
-    right:5px;
+    bottom: 2px;
+right: -2px;
+    
+    display:block;
+    background:#4DD5FF;
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+-moz-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.mainFiltersShell .closeButton {
+    -webkit-transform: rotate(-45deg); 
+-moz-transform: rotate(-45deg);	
+}
+
+.mainFiltersShell .moreFiltersTrigger:hover {
+    text-decoration: none;
+    background:#2FB7E0;
 }
 
 .secondaryFiltersShell {
@@ -243,7 +296,11 @@ input {
 
 .memberSearchResult {
     margin-bottom:20px;
-    
+    border:1px solid #414342;
+}
+
+.memberSearchResult:hover {
+    border-color:#3bc3ed;
 }
 
 .memberSearchResult, .memberSearchResultNameShell, .searchResultImageShell {
@@ -253,12 +310,10 @@ input {
 }
 
 .searchResultImageShell {
-    border:1px solid #bbb;
+    
 }
 
-.fullMemberCard .searchResultImageShell {
-    border:none;
-}
+
 
 .memberSearchResult:hover {
     box-shadow:1px 1px 3px #32bde8;

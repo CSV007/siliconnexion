@@ -7,7 +7,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
 <html xmlns="http://www.w3.org/1999/xhtml">
 
     <head>
-        <title>Siliconnexion</title>
+        <title>we are coworkers</title>
         <link rel="Shortcut icon" href={"favicon.ico"|ezimage} type="image/x-icon" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -19,7 +19,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
         <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.core.css'|ezdesign('single')} media="all" />
         <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.theme.css'|ezdesign('single')} media="all" />
         <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.all.css'|ezdesign('single')} media="all" />
-        
+        <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
         {ezscript_load( array( 'ezjsc::jqueryio', 'ezjsc::jquery' ))}
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript" language="javascript" src="{'javascript/chosen.jquery.min.js'|ezdesign('no')}"></script>
@@ -42,7 +42,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                     <div class="mainShell">
                         <div class="header relative">
                             <div class="logo absolute">
-                                <img src={'logo.png'|ezimage()} />
+                                <a href="{'/'|ezurl('no', 'full')}"><img src={'logo.png'|ezimage()} /></a>
                                 
                                 
                             </div>
@@ -51,7 +51,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                                 {$current_user.contentobject.name} - <a href={'/user/logout'|ezurl( 'no', 'full' )}>{'logout'|i18n('cadev')}</a>
                             
                             {else}
-                            <a href="{'user/login'|ezurl( 'no', 'full' )}">Login</a>
+                            <a href="{'user/login'|ezurl( 'no', 'full' )}">Login</a> / 
                             <a href="{'user/register'|ezurl( 'no', 'full' )}">Sign up</a>
                             {/if}
                             </div>

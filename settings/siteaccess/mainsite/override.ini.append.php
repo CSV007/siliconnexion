@@ -177,6 +177,20 @@ MatchFile=block_item/product.tpl
 Subdir=templates
 Match[class_identifier]=product
 
+[apipage]
+Source=node/view/full.tpl
+MatchFile=full/api.tpl
+Subdir=templates
+Match[node]=76
+
+[full_page]
+Source=node/view/full.tpl
+MatchFile=full/page.tpl
+Subdir=templates
+Match[class_identifier]=page
+
+
+
 [full_article]
 Source=node/view/full.tpl
 MatchFile=full/article.tpl

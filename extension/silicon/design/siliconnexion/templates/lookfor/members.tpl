@@ -21,12 +21,12 @@
             </select>
         </div>
         <div class="left searchFilterBlock">
-            An rather 
+            And rather 
             <input class="triggerChange" type="checkbox" name="gender" value="0" id="femaleCrit" /> <label for="femaleCrit">Female</label>
             <input class="triggerChange" type="checkbox" name="gender" value="1" id="maleCrit" />  <label for="femaleCrit">Male</label>
         </div>
         <div class="clear"></div>
-        <span class="absolute moreFiltersTrigger link">more filters</span>
+        <span class="absolute moreFiltersTrigger link">+</span>
     </div>
     <div class="secondaryFiltersShell relative hide">
         <div class="left searchFilterBlock">
@@ -38,10 +38,13 @@
             <input class="triggerChange" type="checkbox" name="hair" value="4" /> Ginger<br />
             <input class="triggerChange" type="checkbox" name="hair" value="5" /> Salt &amp; Pepper<br />
         </div>
-        <span class="link absolute moreFiltersTrigger">X</span>
+        
         <div class="clear"></div>
     </div>
 </div>
-<p class="searchStatus"></p>
+<div class="searchStatusShell">
+    <span class="searchStatus "><img src="{'ajax-loader.gif'|ezimage('no', 'full')}" /> Searching...</span>    
+</div>   
+
 <div id="searchResult" class="relative"></div>
 <div class="clear"></div>

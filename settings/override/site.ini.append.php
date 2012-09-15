@@ -1,5 +1,15 @@
 <?php /* #?ini charset="utf-8"?
 
+[DatabaseSettings]
+DatabaseImplementation=ezmysqli
+Server=mysql.alwaysdata.com
+Port=
+User=octopolux_sili
+Password=pw4sili
+Database=octopolux_sili
+Charset=
+Socket=disabled
+
 [ExtensionSettings]
 ActiveExtensions[]=eztags
 ActiveExtensions[]=ezjscore

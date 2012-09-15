@@ -65,9 +65,11 @@ $(document).ready(function() {
         if (secondaryFilterShellOpen) {
             $('.secondaryFiltersShell').slideUp();
             secondaryFilterShellOpen = false;
+            $(this).removeClass('closeButton');
         } else {
             $('.secondaryFiltersShell').slideDown();
             secondaryFilterShellOpen = true;
+            $(this).addClass('closeButton');
         }
     });
     
@@ -79,7 +81,7 @@ $(document).ready(function() {
 
 function launchMemberSearch() {
     
-    $('.searchStatus').html('Searching ...');
+    $('.searchStatus').show();
     
     var hairColor = [];
     $('[name="hair"]').filter(':checked').each(function(){
@@ -102,7 +104,7 @@ function launchMemberSearch() {
         skill: skill,
         places: places
     }, function(view) { 
-        $('.searchStatus').html('');
+        $('.searchStatus').hide();
         $('#searchResult').isotope( 'remove', $('.memberSearchResult') );
         $('.memberSearchResult').remove();
         var newItems = $(view.content);
