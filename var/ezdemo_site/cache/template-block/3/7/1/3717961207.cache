@@ -1,0 +1,54 @@
+
+<div id="path">
+<div id="path-design">
+    
+<p class="path"><span class="path-here-text">You are here:</span>            <span class="path">Comments list</span>
+    
+    &nbsp;</p></div>
+</div>
+
+<hr class="hide" />
+
+    <div id="leftmenu">
+<div id="leftmenu-design">
+    
+            
+    
+    
+        
+    
+    
+    
+            <div class="box-header"><div class="box-ml">
+        <h4>eZ Comments</h4>
+        </div></div>
+
+        <div class="box-bc"><div class="box-ml"><div class="box-content">
+
+                    <ul class="leftmenu-items">
+                                                                                                
+                                                    <li class="current"><div><a href="/siliconnexion/index.php/siteadmin/comment/list">Comments list</a></div></li>
+                                        </ul>
+        
+        </div></div></div>
+        
+
+<div id="widthcontrol-links" class="widthcontrol">
+<p>    <span class="current">Small</span>
+    <a href="/siliconnexion/index.php/siteadmin/user/preferences/set/admin_left_menu_size/medium" title="Change the left menu width to medium size.">Medium</a>
+    <a href="/siliconnexion/index.php/siteadmin/user/preferences/set/admin_left_menu_size/large" title="Change the left menu width to large size.">Large</a>
+    </p>
+</div>
+
+
+<div id="widthcontrol-handler" class="hide">
+<div class="widthcontrol-grippy"></div>
+</div>
+
+<!-- script type="text/javascript" src="/siliconnexion/design/admin2/javascript/leftmenu_widthcontrol.js" charset="utf-8"></script -->
+
+    
+</div>
+</div>
+
+<hr class="hide" />

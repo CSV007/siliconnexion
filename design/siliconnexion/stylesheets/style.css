@@ -1,0 +1,313 @@
+/* **** CSS RESET **** */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    outline:none;
+    border: 0;
+    font-family:arial;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background:#444;
+    font-size:12px;
+    line-height: 1;
+    padding-bottom:45px;
+}
+
+ul, ol, p {
+    line-height:1.6em;
+    margin:5px 0 10px 0;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+a, .link{
+    color:#009ee0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, .link:hover {
+    text-decoration: underline;
+}
+
+label {
+    display:block;
+}
+
+input {
+    outline:none;
+}
+
+/* **** /CSS RESET **** */
+
+.mainShell {
+    margin:0 auto;
+    width:940px;
+}
+
+
+/* **** UTILES **** */
+
+
+.right { float:right; }
+.left { float:left; }
+.clear { clear:both; }
+.absolute { position:absolute; }
+.relative { position:relative; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.hide {
+    display:none;
+
+}
+.block {display:block; }
+
+.pointer { cursor:pointer; }
+
+.textOut { text-indent:-9999px; }
+
+.noBorder { border:none; }
+
+.hr {
+    background:#ccc;
+    height:20px;
+    margin:20px 0;
+}
+
+.halfCol { width: 50%; }
+.colPadder { padding:10px; }
+
+.horizontalList { list-style: none; }
+.horizontalList li { float:left; }
+.horizontalList li.right { float:right; }
+
+
+.odd td { background:#deebfc; }
+.even td { background:white; }
+
+
+.pinkText {color:#e20177;}
+.blueText {color:#009ee0;}
+
+.warning {
+    background:#e20177;
+    color:white;
+
+    margin:30px auto;
+    padding:10px;
+    width:460px;
+}
+
+.errorMessage {
+    background:#e20177;
+    color:white;
+    margin:10px 0;
+    padding:10px;
+}
+
+.padder {padding:10px;}
+
+#myDebug {
+    background:white;
+    border:2px solid #414342;
+    padding:10px;
+    position:fixed;
+    top:0;
+    right:0;
+    width:200px;
+}
+
+/* **** /UTILES **** */
+
+/* **** HEADER **** */
+
+.header {
+    background:#ddd;
+    height: 100px;
+}
+
+.logo {
+    background:#ccc;
+    width:150px;
+    height:80px;
+    top:10px;
+}
+
+.mainMenu {
+    left:180px;
+    top:37px;
+    margin:0;
+}
+
+.mainMenu li {
+    font-size:1.5em;
+    margin-right:20px;
+}
+
+.userHeaderBlock {
+    top:10px;
+    right:10px;
+}
+
+/* **** /HEADER **** */
+
+/* **** FOOTER **** */
+
+.footer {
+    background:#ddd;
+    position:fixed;
+    bottom:0;
+    width:940px;
+    z-index:600;
+}
+
+.footerMenu {
+    margin:0;
+}
+.footerMenu li {
+    margin-right:15px;
+}
+
+/* **** /FOOTER **** */
+
+/* **** PEOPLE DIRECTORY **** */
+
+.searchStatus {
+    height:20px;
+    line-height: 20px;
+    margin:0;
+}
+
+.searchFilter {
+    background:#ddd;
+    padding-bottom:10px;
+}
+
+.searchFilterBlock {
+    margin-right:10px;
+}
+
+.mainFiltersShell .moreFiltersTrigger {
+    bottom:5px;
+    right:5px;
+}
+.secondaryFiltersShell .moreFiltersTrigger {
+    top:5px;
+    right:5px;
+}
+
+.memberSearchResult {
+    margin-bottom:10px;
+}
+
+.memberSearchResult, .memberSearchResultNameShell, .searchResultImageShell {
+    height:125px;
+    width:200px;
+    overflow:hidden;
+}
+
+.memberSearchResult:hover {
+    box-shadow:1px 1px 3px #ff54e2;
+}
+
+.memberSearchResult:hover .memberSearchResultNameShell {
+    border:#ff8eea 2px solid;
+    height:121px;
+    width:196px;
+}
+
+.memberSearchResultNameShell {
+    top:0;
+    left:0;
+}
+
+.memberSearchResultNameShell span {
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    padding:4px;
+    bottom:5px;
+    left:5px;
+    font-size:1.4em;
+}
+
+/*Animation*/
+#searchResult .withTransitions {
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -ms-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property:    -moz-transform, opacity;
+    -ms-transition-property:     -ms-transform, opacity;
+    -o-transition-property:         top, left, opacity;
+    transition-property:         transform, opacity;
+}
+
+/* **** /PEOPLE DIRECTORY **** */
+
+/* **** USER CARD **** */
+
+.fullMemberCard {
+    background:white;
+    height:260px;
+    width:410px;
+}
+
+.memberSearchResult, .fullMemberCard:hover {
+    box-shadow:1px 1px 4px black;
+} 
+
+.fullMemberCard:hover .memberSearchResultNameShell {
+    border:none;
+}
+.fullMemberCard .memberSearchResultNameShell span {
+    display: none;
+}
+
+.fullCardName {
+    font-size:1.4em;
+    left:210px;
+    top:5px;
+}
+
+.closeBigCard {
+    right:5px;
+    top:5px;
+    cursor: pointer;
+    padding:2px 5px;
+    background:#bbb;
+    color:white;
+}
+.closeBigCard:hover {
+    background:black;
+}
+
+.showOnCard {
+    display: none;
+}
+
+/* **** /USER CARD **** */
+
+/* **** PAGE **** */
+
+.page {
+    background:white;
+    padding:20px;
+}
+
+.block {
+    margin-bottom:15px;
+}
+
+/* **** /PAGE **** */

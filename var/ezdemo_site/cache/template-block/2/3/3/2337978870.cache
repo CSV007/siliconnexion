@@ -1,0 +1,102 @@
+
+<div id="path">
+<div id="path-design">
+    
+<p class="path"><span class="path-here-text">You are here:</span>                    <a class="path" href="/siliconnexion/index.php/siteadmin/class/grouplist">Class groups</a>
+            
+            <span class="slash">/</span>
+                <span class="path">Setup</span>
+    
+    &nbsp;</p></div>
+</div>
+
+<hr class="hide" />
+
+    <div id="leftmenu">
+<div id="leftmenu-design">
+    
+            
+    
+    
+
+        
+    
+    
+    
+            <div class="box-header"><div class="box-ml">
+        <h4>Setup</h4>
+        </div></div>
+
+        <div class="box-bc"><div class="box-ml"><div class="box-content">
+
+                    <ul class="leftmenu-items">
+                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/setup/cache">Cache management</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/class/grouplist">Classes</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/infocollector/overview">Collected information</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/setup/extensions">Extensions</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/settings/view">Ini settings</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/content/translations">Languages</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/visual/menuconfig">Menu management</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/pdf/list">PDF export</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/package/list">Packages</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/setup/rad">RAD</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/rss/list">RSS</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/search/stats">Search statistics</a></div></li>
+                                                                                                                
+                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/section/list">Sections</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/setup/session">Sessions</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/state/groups">States</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/setup/info">System information</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/setup/systemupgrade">Upgrade check</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/trigger/list">Triggers</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/url/list">Link management</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/content/urltranslator">URL translator</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/content/urlwildcards">URL wildcards</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/workflow/grouplist">Workflows</a></div></li>
+                                                                                                                
+                                                                                                                                                                                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/workflow/processlist">Workflow processes</a></div></li>
+                                                                                                                
+                                                    <li><div><a href="/siliconnexion/index.php/siteadmin/oauthadmin/list">oAuth admin</a></div></li>
+                                        </ul>
+        
+        </div></div></div>
+        
+
+<div id="widthcontrol-links" class="widthcontrol">
+<p>    <span class="current">Small</span>
+    <a href="/siliconnexion/index.php/siteadmin/user/preferences/set/admin_left_menu_size/medium" title="Change the left menu width to medium size.">Medium</a>
+    <a href="/siliconnexion/index.php/siteadmin/user/preferences/set/admin_left_menu_size/large" title="Change the left menu width to large size.">Large</a>
+    </p>
+</div>
+
+
+<div id="widthcontrol-handler" class="hide">
+<div class="widthcontrol-grippy"></div>
+</div>
+
+    
+</div>
+</div>
+
+<hr class="hide" />

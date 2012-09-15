@@ -1,0 +1,47 @@
+
+    <div class="navbar main-navi">
+        <!-- Top menu area: START -->
+                    <!-- Top menu content: START -->
+<div class="navbar-inner">
+    <div class="container">
+
+        <a class="btn btn-navbar" data-action="toggleclass" data-class="nav-collapse" data-target=".main-navi .nav-collapse">Navigation</a>
+
+        <div class="nav-collapse">
+            <ul class="nav">
+                
+                            </ul>
+        </div>
+
+    </div>
+</div>
+<!-- Top menu content: END -->
+                <!-- Top menu area: END -->
+
+        <!-- Path area: START -->
+                    <div class="breadcrumb-wrapper nav-collapse">
+    <!-- Path content: START -->
+<div class="container">
+    <ul class="breadcrumb">
+                <li>
+            <a href="/siliconnexion/index.php/mainsite/Users">Users</a> <span class="divider">&raquo;</span>
+        </li>
+                    <li class="active">
+             
+        </li>
+            </ul>
+</div>
+<!-- Path content: END -->
+</div>
+                <!-- Path area: END -->
+    </div>
+
+    <!-- Toolbar area: START -->
+        <!-- Toolbar area: END -->
+
+    <!-- Columns area: START -->
+    <div class="container">
+        <div class="row">
+            <!-- Side menu area: START -->
+                        <!-- Side menu area: END -->
+    

@@ -1,0 +1,123 @@
+
+<h2>My latest content</h2>
+
+<table class="list" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Modified</th>
+        <th class="tight"></th>
+    </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Membres/About" title="About">About</a>
+            </td>
+            <td>
+                Page
+            </td>
+            <td>
+                19/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/74/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;About&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Pages" title="Pages">Pages</a>
+            </td>
+            <td>
+                Folder
+            </td>
+            <td>
+                19/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/73/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Pages&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Places/La-Mutinerie" title="La Mutinerie">La Mutinerie</a>
+            </td>
+            <td>
+                Place
+            </td>
+            <td>
+                18/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/70/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;La Mutinerie&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Places/La-Cantine" title="La Cantine">La Cantine</a>
+            </td>
+            <td>
+                Place
+            </td>
+            <td>
+                18/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/68/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;La Cantine&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Places/Le-Laptop" title="Le Laptop">Le Laptop</a>
+            </td>
+            <td>
+                Place
+            </td>
+            <td>
+                18/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/69/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Le Laptop&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Places" title="Places">Places</a>
+            </td>
+            <td>
+                Folder
+            </td>
+            <td>
+                18/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/67/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Places&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/siliconnexion/index.php/siteadmin/Membres" title="Membres">Membres</a>
+            </td>
+            <td>
+                Folder
+            </td>
+            <td>
+                10/07/2012
+            </td>
+            <td>
+                            <a href="/siliconnexion/index.php/siteadmin/content/edit/66/f/eng-GB">
+                    <img src="/siliconnexion/design/standard/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Membres&gt;." />
+                </a>
+                        </td>
+        </tr>
+    </table>
