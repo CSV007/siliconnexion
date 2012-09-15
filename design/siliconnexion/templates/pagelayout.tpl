@@ -50,7 +50,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                             {/if}
                         </div>
                     </div>
-                    <div class="content">
+                    <div class="content ">
 
                         {$module_result.content}
 
