@@ -32,7 +32,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
         <script>
             siteUrl = "{'/'|ezroot('no', 'full')}";
         </script>
-        
+        {literal}
         <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -46,7 +46,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
   })();
 
 </script>
-        
+        {/literal}
                 </head>
                 <body>
 
