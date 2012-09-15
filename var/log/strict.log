@@ -84,3 +84,6 @@ call_user_func() expects parameter 1 to be a valid callback, non-static method e
 [ Sep 12 2012 18:16:46 ] [127.0.0.1] Timing Point: Module start 'ezjscore'
 [ Sep 12 2012 18:16:46 ] [127.0.0.1] PHP: E_STRICT:
 call_user_func() expects parameter 1 to be a valid callback, non-static method ORExtendedFilter::CreateSqlParts() should not be called statically in /www/siliconnexion/extension/nxc_extendedfilter/classes/nxcextendedattributefilter.php on line 37
+[ Sep 15 2012 14:56:30 ] [::1] Timing Point: Module start 'ezjscore'
+[ Sep 15 2012 14:56:30 ] [::1] PHP: E_STRICT:
+call_user_func() expects parameter 1 to be a valid callback, non-static method eZTagsAttributeFilter::createSqlParts() should not be called statically in /www/siliconnexion/extension/nxc_extendedfilter/classes/nxcextendedattributefilter.php on line 37

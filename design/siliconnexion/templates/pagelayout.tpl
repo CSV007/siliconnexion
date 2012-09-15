@@ -13,14 +13,21 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
 
         <link rel="stylesheet" type="text/css" href={'stylesheets/style.css'|ezdesign('single')} media="all" />
         <link rel="stylesheet" type="text/css" href={'stylesheets/chosen.css'|ezdesign('single')} media="all" />
-        <link rel="stylesheet" type="text/css" href={'stylesheets/autoSuggest.css'|ezdesign('single')} media="all" />
+        
+        <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.autocomplete.css'|ezdesign('single')} media="all" />
+        <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.base.css'|ezdesign('single')} media="all" />
+        <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.core.css'|ezdesign('single')} media="all" />
+        <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.theme.css'|ezdesign('single')} media="all" />
+        <link rel="stylesheet" type="text/css" href={'stylesheets/jquery.ui.all.css'|ezdesign('single')} media="all" />
         
         {ezscript_load( array( 'ezjsc::jqueryio', 'ezjsc::jquery' ))}
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript" language="javascript" src="{'javascript/chosen.jquery.min.js'|ezdesign('no')}"></script>
         <script type="text/javascript" language="javascript" src="{'javascript/isotope.min.js'|ezdesign('no')}"></script>
         <script type="text/javascript" language="javascript" src="{'javascript/isotopeHack.js'|ezdesign('no')}"></script>
-        <script type="text/javascript" language="javascript" src="{'javascript/jquery.autoSuggest.js'|ezdesign('no')}"></script>
+        
+        <script type="text/javascript" language="javascript" src="{'javascript/jquery-ui-1.8.23.custom.min.js'|ezdesign('no')}"></script>
+        
         <script type="text/javascript" language="javascript" src="{'javascript/main.js'|ezdesign('no')}"></script>
         <script>
             siteUrl = "{'/'|ezroot('no', 'full')}";

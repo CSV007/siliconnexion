@@ -61,10 +61,26 @@ if (empty($errors)) {
 
 
 
-			$userInfo['name'] = $user->Name;
+			
 			$userInfo['id'] = $user->NodeID;
-			$userInfo['twitter'] = ($userDM['twitter']->DataInt) ? $userDM['twitter']->toString() : NULL;
-                        $userInfo['site'] = ($userDM['site']->DataInt) ? $userDM['site']->toString() : NULL;
+			$userInfo['last_name'] = ($userDM['last_name']->hasContent()) ? $userDM['last_name']->toString() : NULL;
+			$userInfo['first_name'] = ($userDM['first_name']->hasContent()) ? $userDM['first_name']->toString() : NULL;
+
+			$userInfo['twitter'] = ($userDM['twitter']->hasContent()) ? $userDM['twitter']->toString() : NULL;
+			$userInfo['facebook'] = ($userDM['facebook']->hasContent()) ? $userDM['facebook']->toString() : NULL;
+			$userInfo['viadeo'] = ($userDM['viadeo']->hasContent()) ? $userDM['viadeo']->toString() : NULL;
+			$userInfo['linkedin'] = ($userDM['linkedin']->hasContent()) ? $userDM['linkedin']->toString() : NULL;
+			$userInfo['behance'] = ($userDM['behance']->hasContent()) ? $userDM['behance']->toString() : NULL;
+			$userInfo['dribbble'] = ($userDM['dribbble']->hasContent()) ? $userDM['dribbble']->toString() : NULL;
+			$userInfo['gender'] = ($userDM['gender']->hasContent()) ? $userDM['gender']->toString() : NULL;
+                       
+                        
+                    //    $userInfo['skills'] = ($userDM['skills']->hasContent()) ? $userDM['skills']->keywordString() : NULL;
+			
+                        $userInfo['drink'] = ($userDM['drink']->hasContent()) ? $userDM['drink']->toString() : NULL;
+			$userInfo['phone'] = ($userDM['phone']->hasContent()) ? $userDM['phone']->toString() : NULL;
+			$userInfo['site'] = ($userDM['site']->hasContent()) ? $userDM['site']->toString() : NULL;
+                        $userInfo['hair'] = ($userDM['hair']->hasContent()) ? $userDM['hair']->toString() : NULL;
                         $userPhoto = $userDM['photo']->content();
                         $userPhotoFile = $userPhoto->imageAlias('medium');
                         $userPhotoUrl = $userPhotoFile['url'];
@@ -80,10 +96,10 @@ if (empty($errors)) {
 }
 
 
-echo '<hr /><pre>';
-var_dump($placeResult);
-echo '</pre><hr />';
-
+echo json_encode($placeResult);
+//echo '<pre>';
+//var_dump($placeResult);
+//echo '</pre>';
 
 
 eZExecution::cleanExit();

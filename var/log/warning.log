@@ -321,3 +321,15 @@ Function required:
  MainNodeID : 
 Policies that didn't match:
 
+[ Sep 15 2012 10:44:02 ] [::1] Timing Point: Module start 'api'
+[ Sep 15 2012 10:44:02 ] [::1] Insufficient permissions:
+Function required:
+ Module : api
+ Function : place
+ ClassID : 
+ MainNodeID : 
+Policies that didn't match:
+
+[ Sep 15 2012 11:44:04 ] [::1] Timing Point: Module end 'user'
+[ Sep 15 2012 11:44:04 ] [::1] PHP: E_WARNING:
+Invalid argument supplied for foreach() in /www/siliconnexion/extension/ezjscore/classes/ezjscpacker.php on line 461
