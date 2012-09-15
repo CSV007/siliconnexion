@@ -5,8 +5,8 @@ $placeResult = array();
 
 
 
-$offset = (isset($Params['offset']) && is_numeric($Params['offset'])) ? $Params['offset'] : 0;
-$limit = (isset($Params['limit']) && is_numeric($Params['limit'])) ? $Params['limit'] : 10;
+//$offset = (isset($Params['offset']) && is_numeric($Params['offset'])) ? $Params['offset'] : 0;
+//$limit = (isset($Params['limit']) && is_numeric($Params['limit'])) ? $Params['limit'] : 10;
 
 
 // We check if we have a place id
@@ -49,11 +49,9 @@ if (empty($errors)) {
 // Foreach user we need name, url, twitter, image url
 	if (count($users)) {
 		$resultUsers = array();
-                $i = 1;
+                
 		foreach ($users as $user) {
-                    
-                    if ($i < $offset) continue;
-                    if ($i++ > $offset + $limit) break;
+
                     
 			$userInfo = array();
 			// We get info from user datamap

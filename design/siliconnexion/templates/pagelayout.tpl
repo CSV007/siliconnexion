@@ -43,14 +43,15 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                             <div class="absolute userHeaderBlock">
                                 {if $current_user.is_logged_in}
                                 {$current_user.contentobject.name} - <a href={'/user/logout'|ezurl( 'no', 'full' )}>{'logout'|i18n('cadev')}</a>
-                            </div>
+                            
                             {else}
                             <a href="{'user/login'|ezurl( 'no', 'full' )}">Login</a>
                             <a href="{'user/register'|ezurl( 'no', 'full' )}">Sign up</a>
                             {/if}
+                            </div>
                         </div>
-                    </div>
-                    <div class="content ">
+                    
+                    <div class="content">
 
                         {$module_result.content}
 
@@ -67,7 +68,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                         </div>
                     </div>
                     
-
+</div>
 
                 </body>
                 </html>

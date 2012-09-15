@@ -1,3 +1,6 @@
+{def $tags = tags_json()}
+{$tags|attribute('show', 1)}
+
 {ezcss_require( array( 'tagssuggest.css', 'jqmodal.css', 'contentstructure-tree.css' ) )}
 {ezscript_require( array( 'ezjsc::jquery', 'ezjsc::jqueryio', 'jqmodal.js', 'jquery.tagssuggest.js', 'tagssuggest-init.js' ) )}
 
@@ -78,7 +81,7 @@
 			})
 			.autocomplete({
 				source: function( request, response ) {
-					$.getJSON( "search.php", {
+					$.getJSON( "{/literal}{'ezjscore/call/lookfor::members'|ezurl('no', 'full')}{literal}", {
 						term: extractLast( request.term )
 					}, response );
 				},
