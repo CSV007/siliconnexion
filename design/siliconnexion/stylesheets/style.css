@@ -241,34 +241,33 @@ input {
 }
 
 .searchStatusShell {
-    height:30px;
-    line-height: 30px;
-}
-
-.searchFilter {
-    
-    padding-bottom:10px;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
 }
 
 .searchFilterBlock {
     margin-right:10px;
 }
 
+.horizontalFilter {
+    line-height: 27px;
+}
 
 .mainFiltersShell .moreFiltersTrigger {
-    bottom: 2px;
-right: -2px;
+    bottom: 0px;
+right: 0px;
     
     display:block;
     background:#4DD5FF;
-    width:30px;
-    height:30px;
-    border-radius:30px;
+    width:27px;
+    height:27px;
+    border-radius:27px;
     color:white;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    line-height: 30px;
+    line-height: 27px;
 -moz-transition: all 0.3s ease;
 -webkit-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
@@ -277,7 +276,8 @@ transition: all 0.3s ease;
 
 .mainFiltersShell .closeButton {
     -webkit-transform: rotate(-45deg); 
--moz-transform: rotate(-45deg);	
+    -moz-transform: rotate(-45deg);	
+
 }
 
 .mainFiltersShell .moreFiltersTrigger:hover {

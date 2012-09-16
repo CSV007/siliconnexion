@@ -20,7 +20,7 @@
                 {/foreach}
             </select>
         </div>
-        <div class="left searchFilterBlock">
+        <div class="left searchFilterBlock horizontalFilter">
             And rather 
             <input class="triggerChange" type="checkbox" name="gender" value="0" id="femaleCrit" /> <label for="femaleCrit">Female</label>
             <input class="triggerChange" type="checkbox" name="gender" value="1" id="maleCrit" />  <label for="femaleCrit">Male</label>
