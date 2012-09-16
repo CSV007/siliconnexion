@@ -4,6 +4,42 @@
     <div class="searchResultImageShell">
         {attribute_view_gui attribute=$node.data_map.photo image_class=fiche}
     </div>
+    <div class="ficheMembreIcons">
+
+{if $node.data_map.site.has_content}
+        <a class="whiteSite" href="{$node.data_map.site.content}" target="_blank">www</a>
+            {/if}
+
+
+
+
+<a class="whiteMail" ></a>
+
+        {if $node.data_map.twitter.has_content}
+        <a class="whiteTwitter" target="_blank" href="{$node.data_map.twitter.content}"></a>
+        {/if}
+        {if $node.data_map.facebook.has_content}
+        <a class="whiteFb" target="_blank" href="{$node.data_map.facebook.content}"></a>
+        {/if}
+        {if $node.data_map.dribbble.has_content}
+        <a class="whiteDribbble" target="_blank" href="{$node.data_map.dribbble.content}">Db</a>
+        {/if}
+        {if $node.data_map.behance.has_content}
+        <a class="whiteBehance" target="_blank" href="{$node.data_map.behance.content}">Bh</a>
+        {/if}
+
+        {if $node.data_map.viadeo.has_content}
+        <a class="whiteViadeo" target="_blank" href="{$node.data_map.viadeo.content}"></a>
+        {/if}
+        {if $node.data_map.linkedin.has_content}
+        <a class="whiteLinkedin" target="_blank" href="{$node.data_map.linkedin.content}"></a>
+        {/if}
+
+<a class="whiteLink" href="{$node.url_alias|ezurl('no', 'full')}"></a>
+
+        <div class="clear"></div>
+        
+    </div>
     <div class="memberSearchResultNameShell absolute fullCardTrigger pointer">
         <span class="absolute">{attribute_view_gui attribute=$node.data_map.first_name}</span>
 
@@ -19,6 +55,10 @@
 
 
         <p class="guyName">{$node.name}</p>
+
+{if $node.data_map.site.has_content}
+        <p><a href="{$node.data_map.site.content}" target="_blank">Website</a></p>
+            {/if}
 
         {if $node.data_map.job.has_content}
         <p>{attribute_view_gui attribute=$node.data_map.job}</p>
@@ -38,52 +78,10 @@
         <p>Phone: {attribute_view_gui attribute=$node.data_map.phone}</p>
             {/if}
             
-            {if $node.data_map.site.has_content}
-        <p><a href="{$node.data_map.site.content}" target="_blank">Site</a></p>
-            {/if}
+            
             
       
 
-
-        {if $node.data_map.twitter.has_content}
-        <p><a target="_blank" href="{$node.data_map.twitter.content}">Twitter</a></p>
-        {/if}
-
-        {if $node.data_map.facebook.has_content}
-        <p><a target="_blank" href="{$node.data_map.facebook.content}">Facebook</a></p>
-        {/if}
-
-        {if $node.data_map.linkedin.has_content}
-        <p><a target="_blank" href="{$node.data_map.linkedin.content}">Linkedin</a></p>
-        {/if}
-
-        {if $node.data_map.dribbble.has_content}
-        <p><a target="_blank" href="{$node.data_map.dribbble.content}">Dribbble</a></p>
-        {/if}
-        {if $node.data_map.behance.has_content}
-        <p><a target="_blank" href="{$node.data_map.behance.content}">BeHance</a></p>
-        {/if}
-
-        {if $node.data_map.viadeo.has_content}
-        <a target="_blank" href="{$node.data_map.viadeo.content}">Viadeo</a></p>
-        {/if}
-
-        <p>
-
-
-
-
-
-
-
-
-
-            
-
-           
-
-
-        </p>
 
     </div>
     <div class="showOnCard fullCardTrigger closeBigCard absolute">x</div>

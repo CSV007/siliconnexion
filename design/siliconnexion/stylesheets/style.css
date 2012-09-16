@@ -366,7 +366,7 @@ transition: all 0.3s ease;
 
 .fullMemberCard {
     background:white;
-    height:260px;
+    height:300px;
     width:300px;
 }
 
@@ -393,10 +393,16 @@ transition: all 0.3s ease;
 }
 
 .closeBigCard {
-    right:5px;
-    top:5px;
+    right:3px;
+    text-align: center;
+    top:3px;
     cursor: pointer;
-    padding:2px 5px;
+    font-size: 1.2em;
+    display: block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-weight: bold;
     background:#bbb;
     color:white;
 }
@@ -408,6 +414,90 @@ transition: all 0.3s ease;
     display: none;
 }
 
+.ficheMembreIcons {
+    border-top: 1px solid black;
+    width: 140px;
+    position: absolute;
+    top: 140px;
+}
+
+.ficheMembreIcons a {
+    display: block;
+    width:35px;
+    height: 35px;
+    background-color:#444;
+    float:left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 35px;
+    text-align: center;
+    
+transition: background-color 0.2s;
+-moz-transition: background-color 0.2s;
+-webkit-transition: background-color 0.2s;
+-o-transition: background-color 0.2s;
+
+}
+
+
+.whiteTwitter {
+    background-image: url(../images/icons/whiteTwitter.png);
+}
+.whiteLinkedin {
+    background-image: url(../images/icons/whiteLinkedin.png);
+}
+.whiteViadeo {
+    background-image: url(../images/icons/whiteViadeo.png);
+}
+.whiteGplus {
+    background-image: url(../images/icons/whiteGplus.png);
+}
+.whiteFb {
+    background-image: url(../images/icons/whiteFb.png);
+}
+.whiteTwitter:hover {
+    background-color:#45b0e3;
+}
+.whiteLinkedin:hover {
+    background-color:#0073B2;
+}
+.whiteViadeo:hover {
+    background-color:#ff8300;
+}
+.whiteGplus:hover {
+    background-color:#cc3825;
+}
+.whiteFb:hover {
+    background-color:#39599f;
+}
+
+.whiteMail {
+    background-image: url(../images/icons/whiteMail.png);
+}
+.whiteMail:hover {
+ background-color: #414342;
+}
+.whiteDribbble {
+    background-image: url(../images/icons/whiteDribbble.png);
+}
+.whiteDribbble:hover {
+ background-color: #EA4C89;
+}
+.whiteSite {
+    color:white;
+    font-size: 1.1em;
+}
+.whiteSite:hover {
+    text-decoration: none;
+    background-color: #1dbc0b;
+}
+.whiteLink {
+    background-image: url(../images/icons/whiteLink.png);
+}
+.whiteLink:hover {
+    
+    background-color: #c60dc8;
+}
 /* **** /USER CARD **** */
 
 /* **** PAGE **** */
