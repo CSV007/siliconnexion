@@ -22,7 +22,7 @@
         <a class="whiteFb" target="_blank" href="{$node.data_map.facebook.content}"></a>
         {/if}
         {if $node.data_map.dribbble.has_content}
-        <a class="whiteDribbble" target="_blank" href="{$node.data_map.dribbble.content}">Db</a>
+        <a class="whiteDribbble" target="_blank" href="{$node.data_map.dribbble.content}"></a>
         {/if}
         {if $node.data_map.behance.has_content}
         <a class="whiteBehance" target="_blank" href="{$node.data_map.behance.content}">Bh</a>

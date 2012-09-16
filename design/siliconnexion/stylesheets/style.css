@@ -501,6 +501,14 @@ transition: background-color 0.2s;
     
     background-color: #c60dc8;
 }
+.whiteBehance {
+    background-image: url(../images/icons/whiteBehance.png);
+}
+.whiteBehance:hover {
+    
+    background-color: #2ca32f;
+}
+
 /* **** /USER CARD **** */
 
 /* **** PAGE **** */
