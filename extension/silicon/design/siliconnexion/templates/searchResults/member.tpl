@@ -25,7 +25,7 @@
         <a class="whiteDribbble" target="_blank" href="{$node.data_map.dribbble.content}"></a>
         {/if}
         {if $node.data_map.behance.has_content}
-        <a class="whiteBehance" target="_blank" href="{$node.data_map.behance.content}">Bh</a>
+        <a class="whiteBehance" target="_blank" href="{$node.data_map.behance.content}"></a>
         {/if}
 
         {if $node.data_map.viadeo.has_content}
