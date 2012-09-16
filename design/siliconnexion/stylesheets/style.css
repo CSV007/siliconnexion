@@ -387,6 +387,9 @@ transition: all 0.3s ease;
     top:5px;
     width:140px;
 }
+.fullCardName em { 
+background-color:#fcecba; }
+
 
 .guyName {
     font-size: 1.4em;

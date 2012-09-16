@@ -57,7 +57,7 @@
         <p class="guyName">{$node.name}</p>
 
 {if $node.data_map.site.has_content}
-        <p><a href="{$node.data_map.site.content}" target="_blank">Website</a></p>
+        <p><a href="{$node.data_map.site.content}" target="_blank">Website &rarr;</a></p>
             {/if}
 
         {if $node.data_map.job.has_content}
@@ -65,12 +65,12 @@
         {/if}
         
          {if $node.data_map.skills.has_content}
-         <p>Skills: {attribute_view_gui attribute=$node.data_map.skills}</p>
+         <p><em>Skills:</em> {attribute_view_gui attribute=$node.data_map.skills}</p>
             {/if}
         
         
             {if $node.data_map.places.has_content}
-        <p>Places: {attribute_view_gui attribute=$node.data_map.places}</p>
+        <p><em>Places:</em> {attribute_view_gui attribute=$node.data_map.places}</p>
             {/if}
 
 
