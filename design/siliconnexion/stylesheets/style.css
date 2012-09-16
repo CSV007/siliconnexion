@@ -299,6 +299,12 @@ transition: all 0.3s ease;
     border:1px solid #414342;
 }
 
+.memberSearchResult p,
+.memberSearchResult ul {
+    line-height: 1.6em;
+    margin: 0em 0 0.4em 0;
+}
+
 .memberSearchResult:hover {
     border-color:#3bc3ed;
 }
