@@ -548,7 +548,11 @@ input.box {
     font-size: 1.1em;
 }
 
-.attribute612 .attributeName {
+.registerPage .attributeName {
+    background:#FCECBA;
+}
+
+.attribute1684 .attributeName {
     display: none;
 }
 
