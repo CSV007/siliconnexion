@@ -29,7 +29,7 @@
     
     <input type="hidden" name="ContentObjectAttribute_id[]" value="{$ContentObjectAttribute:item.id}" />
     <div class="block attribute{$ContentObjectAttribute:item.id}">
-        <label class="attributeName">{$ContentObjectAttribute:item.contentclass_attribute.name} {if $ContentObjectAttribute:item.is_required}*{/if}</label><div class="labelbreak"></div>
+        <label class="attributeName attributeNameTopLabel">{$ContentObjectAttribute:item.contentclass_attribute.name} {if $ContentObjectAttribute:item.is_required}*{/if}</label><div class="labelbreak"></div>
         {attribute_edit_gui attribute=$ContentObjectAttribute:item}
     </div>
     {/section}
