@@ -13,7 +13,7 @@
 
 
 
-<a class="whiteMail" ></a>
+<a class="whiteMail" href="mailto:{$node.data_map.account.value.email}"></a>
 
         {if $node.data_map.twitter.has_content}
         <a class="whiteTwitter" target="_blank" href="{$node.data_map.twitter.content}"></a>
@@ -35,7 +35,7 @@
         <a class="whiteLinkedin" target="_blank" href="{$node.data_map.linkedin.content}"></a>
         {/if}
 
-<a class="whiteLink" href="{$node.url_alias|ezurl('no', 'full')}"></a>
+<!-- <a class="whiteLink" href="{$node.url_alias|ezurl('no', 'full')}"></a> -->
 
         <div class="clear"></div>
         
