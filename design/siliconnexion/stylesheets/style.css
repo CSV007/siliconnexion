@@ -542,14 +542,12 @@ input.box {
     width:340px;
 }
 
-.registerPage label {
-    display:block;
-    margin-bottom:5px;
-    font-size: 1.1em;
-}
+
 
 .registerPage .attributeName {
-    background:#FCECBA;
+    font-size: 1.2em;
+    display:block;
+    margin-bottom:5px;
 }
 
 .attribute1684 .attributeName {
