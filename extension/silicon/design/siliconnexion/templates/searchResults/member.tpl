@@ -11,7 +11,7 @@
             {/if}
 
 
-
+    
 
 <a class="whiteMail" href="mailto:{$node.data_map.account.value.email}"></a>
 
