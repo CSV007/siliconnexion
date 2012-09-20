@@ -62,7 +62,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                             </div>
                             <div class="absolute userHeaderBlock">
                                 {if $current_user.is_logged_in}
-                                {$current_user.contentobject.name} - <a href={'/user/logout'|ezurl( 'no', 'full' )}>{'logout'|i18n('cadev')}</a>
+                                {$current_user.contentobject.name} - <a href="{concat('content/edit/', $current_user.contentobject_id)|ezurl('no', 'full')}">edit my profile</a> - <a href={'/user/logout'|ezurl( 'no', 'full' )}>{'logout'|i18n('cadev')}</a>
                             
                             {else}
                             <a href="{'user/login'|ezurl( 'no', 'full' )}">Login</a> / 

@@ -1,5 +1,10 @@
 <?php /* #?ini charset="utf-8"?
 
+[editUser]
+Source=content/edit.tpl
+MatchFile=content/edit/user.tpl
+Subdir=templates
+Match[class_identifier]=user
 
 [block_campaign]
 Source=block/view/view.tpl

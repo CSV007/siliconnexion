@@ -2,11 +2,11 @@
 
 [DatabaseSettings]
 DatabaseImplementation=ezmysqli
-Server=mysql.alwaysdata.com
+Server=localhost
 Port=
-User=octopolux_sili
-Password=pw4sili
-Database=octopolux_sili
+User=root
+Password=root
+Database=siliconnexion
 Charset=
 Socket=disabled
 
@@ -30,6 +30,7 @@ RootNodeDepth=1
 
 [UserSettings]
 LogoutRedirect=/
+VerifyUserType=
 
 [SiteAccessSettings]
 CheckValidity=false

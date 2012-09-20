@@ -35,20 +35,20 @@
 
 {default attribute_base=ContentObjectAttribute}
 <div class="tagssuggest{if $attribute.contentclass_attribute.data_int2} tagsfilter{/if}">
-    <label>{'Selected tags'|i18n( 'extension/eztags/datatypes' )}:</label>
+    <p>Type in your skills</p>
     <div class="tags-list tags-listed no-results">
         <p class="loading">{'Loading'|i18n( 'extension/eztags/datatypes' )}...</p>
-        <p class="no-results">{'There are no selected tags'|i18n( 'extension/eztags/datatypes' )}.</p>
+        
     </div>
 
-    <label>{'Suggested tags'|i18n( 'extension/eztags/datatypes' )}:</label>
-    <div class="tags-list tags-suggested no-results">
+    
+    <div class="hide tags-list tags-suggested no-results">
         <p class="loading">{'Loading'|i18n( 'extension/eztags/datatypes' )}...</p>
         <p class="no-results">{'There are no tags to suggest'|i18n( 'extension/eztags/datatypes' )}.</p>
     </div>
-
+    <div class="clear"></div>
     <div class="tagssuggestfieldwrap">
-        <input class="tagssuggestfield" type="text" size="70" name="suggest_{$attribute_base}_eztags_data_text_{$attribute.id}" value="" autocomplete="off" />
+        <input class="box tagssuggestfield" type="text" size="70" name="suggest_{$attribute_base}_eztags_data_text_{$attribute.id}" value="" autocomplete="off" />
     </div>
 
     {if $has_add_access}
