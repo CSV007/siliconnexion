@@ -100,19 +100,30 @@ class lookforFunctions extends ezjscServerFunctions {
 
 
         $members = eZContentObjectTreeNode::subTreeByNodeID($paramsMembers, array(12, 13));
-
-        $result = '';
-
-
+        $resultCount = count($members);
+        
+        if ($resultCount == 0) {
+            $resultSentence = "We did not find anybody. You are all alone.";
+        }
+        if ($resultCount == 1) {
+            $resultSentence = "We found ONE nice coworker.";
+        }
+        if ($resultCount > 1) {
+            $adjectivesArray = array("nice", "beautiful", "healthy", "working hard", " Justin Bieber fans");
+            $resultSentence = "We found " . $resultCount . " coworkers. All of them are " . $adjectivesArray[array_rand($adjectivesArray)] . ".";
+        }
+        
+        
+        $result = array();
+        $result['resultsCount'] = $resultCount;
+        $result['resultsSentence'] = $resultSentence;
+        $result['resultsDisplay'] = '';
         // We handle results display
         if (count($members) > 0) {
-
             $tpl = eZTemplate::factory();
-
             foreach ($members as $node) {
-
                 $tpl->setVariable('node', $node);
-                $result .= $tpl->fetch('design:searchResults/member.tpl');
+                $result['resultsDisplay'] .= $tpl->fetch('design:searchResults/member.tpl');
             }
         }
 

@@ -43,6 +43,7 @@
     </div>
 </div>
 <div class="searchStatusShell">
+    <span class="searchResults hide"></span>
     <span class="searchStatus "><img src="{'ajax-loader.gif'|ezimage('no', 'full')}" /> Searching...</span>    
 </div>   
 

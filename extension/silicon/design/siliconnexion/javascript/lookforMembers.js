@@ -80,7 +80,7 @@ $(document).ready(function() {
 });
 
 function launchMemberSearch() {
-    
+    $('.searchResults').hide();
     $('.searchStatus').show();
     
     var hairColor = [];
@@ -104,10 +104,14 @@ function launchMemberSearch() {
         skill: skill,
         places: places
     }, function(view) { 
+        
+        
+        
         $('.searchStatus').hide();
+        $('.searchResults').html(view.content.resultsSentence).show();
         $('#searchResult').isotope( 'remove', $('.memberSearchResult') );
         $('.memberSearchResult').remove();
-        var newItems = $(view.content);
+        var newItems = $(view.content.resultsDisplay);
         $('#searchResult').isotope( 'insert', newItems );
     });
         
