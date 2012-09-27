@@ -52,6 +52,7 @@
         <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Back'|i18n('design/standard/user')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
     </div>
 {/section}
+<input type="hidden" name="RedirectIfDiscarded" value={ezhttp('LastAccessesURI','session')} />
 </form>
 
 {literal}

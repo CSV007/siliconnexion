@@ -182,6 +182,12 @@ MatchFile=block_item/product.tpl
 Subdir=templates
 Match[class_identifier]=product
 
+[userfull]
+Source=node/view/full.tpl
+MatchFile=full/user.tpl
+Subdir=templates
+Match[class_identifier]=user
+
 [apipage]
 Source=node/view/full.tpl
 MatchFile=full/api.tpl
