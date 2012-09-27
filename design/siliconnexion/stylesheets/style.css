@@ -92,7 +92,6 @@ input {
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 .hide {
     display:none;
-
 }
 .block {display:block; }
 
@@ -101,6 +100,10 @@ input {
 .textOut { text-indent:-9999px; }
 
 .noBorder { border:none; }
+
+.stabilo {
+    background:#FCECBA;
+}
 
 .hr {
     background:#ccc;
@@ -207,7 +210,7 @@ input {
 /* **** FOOTER **** */
 
 .footer {
-    background:rgba(255, 255, 255, 0.7);
+    background:rgba(255, 255, 255, 0.8);
     position:fixed;
     bottom:0;
     width:940px;
@@ -245,6 +248,8 @@ input {
 .searchStatus {
     margin:0;
 }
+
+
 
 .searchStatusShell {
 height: 40px;
@@ -573,3 +578,8 @@ input.box {
 }
 
 /* **** /BUTTON **** */
+
+
+.welcomeMessage {
+    font-size:1.2em;
+}

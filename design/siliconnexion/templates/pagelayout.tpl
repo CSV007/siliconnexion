@@ -91,7 +91,7 @@ $apiPage = fetch('content', 'node', hash('node_id', 76))
                                 <li><a href="{'/'|ezurl('no', 'full')}">People</a></li>
                                 <li><a href="{$aboutPage.url_alias|ezurl('no', 'full')}">About</a></li>
                                 <li><a href="{$apiPage.url_alias|ezurl('no', 'full')}">{$apiPage.name}</a></li>
-                                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dDkyNTJpTkIxejhGT0tOVUxadVQ4QXc6MQ" target="_blank">Suggest a coworking place</a></li>
+                                <li><a class="stabilo" href="https://docs.google.com/spreadsheet/viewform?formkey=dDkyNTJpTkIxejhGT0tOVUxadVQ4QXc6MQ" target="_blank">Suggest a coworking place</a></li>
                             </ul>
                             
                             <div class="clear"></div>
