@@ -5,7 +5,7 @@
             <input class="filterInput triggerDelayChange" placeholder="Name" type="text" value="" name="name" autocomplete="off"/>
         </div>
         <div class="left searchFilterBlock">
-            <select name="places" class="triggerChange" data-placeholder="Working Place">
+            <select name="places" class="triggerChange" data-placeholder="Working Place" style="width:250px;">
                 <option value></option>
                 {foreach $places as $place}
                 <option value="{$place.contentobject_id}">{$place.name}</option>
@@ -13,7 +13,7 @@
             </select>
         </div>
         <div class="left searchFilterBlock">
-            <select name="skill" class="triggerChange" data-placeholder="Skill">
+            <select name="skill" class="triggerChange" data-placeholder="Skill" style="width:250px;">
                 <option value></option>
                 {foreach $skillsTags as $tag}
                 <option value="{$tag.id}">{$tag.keyword}</option>
